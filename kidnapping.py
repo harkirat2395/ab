@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 import warnings
 warnings.filterwarnings('ignore')
 
-# st.title("Welcome to My Project")
+# st.title("Welcome Students")
 with st.sidebar:
    
     opt=option_menu("Menu",["Home","Crime Analysis","About"],icons=["person-fill","person-fill","person-fill","person-fill","person-fill"],default_index=0)
